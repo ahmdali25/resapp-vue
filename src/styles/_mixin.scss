@@ -1,0 +1,61 @@
+@mixin btn {
+    color: $primary-color;
+    background-color: $tertiary-color;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+    
+    &:focus, &:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:hover {
+        color: $tertiary-color;
+        border: 1px solid $primary-color;
+        background-color: transparent;
+    }
+}
+
+@mixin btn-function {
+    color: $primary-color;
+    background-color: $tertiary-color;
+    margin-top: -15px;
+    margin-right: 20px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+    
+    &:focus, &:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:hover {
+        color: $primary-color;
+        border: 1px solid $text-color;
+        background-color: $secondary-color;
+    }
+}
+
+@mixin card {
+    border-width: 2px;
+    img {
+        width: 320px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .card-body {
+        margin-bottom: -30px;
+    }
+}
+
+@mixin title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-top: 14px;
+    color: $primary-color;
+    text-transform: capitalize;
+}

@@ -61,7 +61,7 @@ export default {
     },
 
     methods: {
-        ...mapActions(['removeRecipe'])
+        ...mapActions(['getRecipeDetail', 'removeRecipe'])
     }
 }
 </script>

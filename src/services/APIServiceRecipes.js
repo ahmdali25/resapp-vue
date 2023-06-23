@@ -21,7 +21,7 @@ export class APIServiceRecipes {
     }
 
     getDataCategoriesByKey (key) {
-        const url = `${CORS_URL}${BASE_URL}/categorys/recipes/${key}`
+        const url = `${CORS_URL}${BASE_URL}/category/recipes/${key}`
         let data = axios.get(url).then(response => response.data);
         return data;
     }

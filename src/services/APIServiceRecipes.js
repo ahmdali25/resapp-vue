@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const CORS_URL='https://api.allorigins.win/raw?url='
-const BASE_URL = "https://resep-hari-ini.vercel.app/";
+const BASE_URL = "https://resep-hari-ini.vercel.app/api";
 
 export class APIServiceRecipes {
     constructor () {

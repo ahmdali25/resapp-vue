@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-lg-3 col-info">
                         <p>Tingkatan :</p>
-                        <p><b>{{getDetail.dificulty}}</b></p>
+                        <p><b>{{getDetail.difficulty}}</b></p>
                     </div>
                 </div>
             </div>

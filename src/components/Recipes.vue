@@ -30,7 +30,7 @@
                       <p>Porsi <br> <b>{{recipe.portion}}</b></p>
                   </div>
                   <div class="col-lg-4">
-                      <p>Tingkatan <br> <b>{{recipe.dificulty}}</b></p>
+                      <p>Tingkatan <br> <b>{{recipe.difficulty}}</b></p>
                   </div>
                 </div>
               </div>

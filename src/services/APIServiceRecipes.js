@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const CORS_URL='https://api.allorigins.win/raw?url='
-const BASE_URL = "https://masak-apa.tomorisakura.vercel.app/api";
+const BASE_URL = "https://resep-hari-ini.vercel.app/";
 
 export class APIServiceRecipes {
     constructor () {
@@ -27,7 +27,7 @@ export class APIServiceRecipes {
     }
 
     getDataBySearch (param) {
-        const url = `${CORS_URL}${BASE_URL}/search/?q=${param}`
+        const url = `${CORS_URL}${BASE_URL}/search/?s=${param}`
         let data = axios.get(url).then(response => response.data);
         return data;
     }
